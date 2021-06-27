@@ -1,0 +1,268 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+h2 {
+	color: #FDFAF6;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 1% 18%;
+}
+
+/* Sections */
+.white-section {
+background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 2px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+	
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+/* Title Section */
+.intro {
+	margin-bottom: 40%;
+}
+.inimg {
+	width: 100%;
+    height: auto;
+	position: absolute;
+	right: 0px;
+}
+#title {
+  background-color: #262da2;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+/* Features Section */
+
+#about {
+  position: relative;
+}
+.ftitle {
+  font-size: 1.5rem;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Social Section */
+
+#social {
+  background-color: #4731b1;
+  font-family: "Lucida Console", monospace;
+}
+.fbtext {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  position: absolute;
+    left: 40%;
+	bottom: 11%;
+}
+
+.fbimg {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+  margin: 10px;
+  padding-bottom: 6%;
+}
+.fbbtn {
+	position: absolute;
+    left: 44%;
+	bottom: 3%;
+	transition: all 0.5s;
+  cursor: pointer;
+}
+.fbbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.fbbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.fbbtn:hover span {
+  padding-right: 25px;
+}
+
+.fbbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.igtext {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  position: absolute;
+  left: 36%;
+  bottom: 10%;
+}
+.igimg {
+	width: 83.6%;
+	border-radius: 5%;
+	margin: 10px;
+	padding-bottom: 9.6%;
+
+}
+.igbtn {
+	position: absolute;
+    left: 44%;
+	bottom: 3%;
+	transition: all 0.5s;
+  cursor: pointer;
+}
+.igbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.igbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.igbtn:hover span {
+  padding-right: 25px;
+}
+
+.igbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.ghimg {
+	padding-top: 1.8%;
+	padding-bottom: 1.8%;
+	width: 40%;
+	height: 58%;
+	border-radius: 5%;
+	position: relative;
+	right: 30%;
+}
+
+.ghtext {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	position: absolute;
+	left: 50%;
+    top: 40%;
+}
+.ghbtn {
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(100%, -30%);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.ghbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.ghbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.ghbtn:hover span {
+  padding-right: 25px;
+}
+
+.ghbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Footer Section */
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+  box-shadow: 0 9px #999;
+}
+.button1:hover {background-color: #ef8172}
+
+.button1:active {
+  background-color: #ef8172;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
